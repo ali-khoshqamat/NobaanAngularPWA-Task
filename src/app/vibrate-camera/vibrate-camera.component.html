@@ -1,0 +1,35 @@
+<!-- <section
+  class="flex flex-col min-h-screen  bg-red-200 p-2.5 border border-solid border-gray-300 rounded-md mb-5"
+> -->
+<div class="flex justify-between items-center mb-5">
+  <button
+    class="outline-none py-1 px-3.5 bg-red-700 text-stone-50 border border-solid border-red-700 rounded-md font-bold"
+    (click)="handleVibrate()"
+  >
+    Vibrate
+  </button>
+  <button
+    class="outline-none py-1 px-3.5 bg-green-700 text-stone-50 border border-solid border-green-700 rounded-md font-bold"
+    [ngClass]="{ '!text-red-700 border-red-700 bg-stone-100': isShow }"
+    [class.border-red-700]="isShow"
+    (click)="toggleCamera()"
+  >
+    {{ isShow ? "Stop Camera" : "Start Camera" }}
+  </button>
+</div>
+<ng-container *ngIf="isShow">
+  <video #video class="rounded-md mb-2.5" autoplay muted></video>
+  <div class="relative">
+    <button
+      class="absolute bottom-0 w-14 h-14 rounded-full bg-white mx-1 my-3.5"
+      (click)="captureImageHandler()"
+    ></button>
+  </div>
+</ng-container>
+<canvas #canvas style="display: none"></canvas>
+<img
+  *ngIf="capturedImage"
+  [src]="capturedImage"
+  class="border border-solid border-gray-300 rounded-md"
+/>
+<!-- </section> -->
