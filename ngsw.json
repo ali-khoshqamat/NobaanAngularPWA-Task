@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1684149608001,
+  "index": "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/favicon.ico",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/index.html",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/main.b84d7d304c1d940c.js",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/manifest.webmanifest",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/polyfills.8d82a8a9e5bb3b9b.js",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/runtime.9b28e18191fe4fce.js",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/styles.2c39bdeb167b7f01.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-128x128.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-144x144.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-152x152.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-192x192.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-384x384.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-512x512.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-72x72.png",
+        "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/index.html": "3c4c8609b5dbb8285f1b27f41a0bacfd426cc7e5",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/main.b84d7d304c1d940c.js": "bd1a8947768e06f20b434a90bffbfea97b7e71dc",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/manifest.webmanifest": "877aa4e9a503b79abd9b3a72d60af2b4c0af262b",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/polyfills.8d82a8a9e5bb3b9b.js": "f3c9f2a9dc8d18d203d9ed178eab800da61b3052",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/runtime.9b28e18191fe4fce.js": "35d1aa658d8b4c705dae752bd0175f12bdc96e18",
+    "https://ali-khoshqamat.github.io/NobaanAngularPWA-Task/styles.2c39bdeb167b7f01.css": "fc62c0c3332aaf756ec01d3f51a622f5947896d1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
